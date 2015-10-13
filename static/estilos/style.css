@@ -1,0 +1,281 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url("../fonts/Open_Sans/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-family: OpenSans-Light;
+  src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+}
+@font-face {
+  font-family: Roboto-Black;
+  src: url("../fonts/Roboto/Roboto-Black.ttf");
+}
+figure {
+  margin: 0px;
+}
+img {
+  width: 100%;
+}
+p {
+  font-family: OpenSans-Light;
+}
+body{
+  background-image: url("../img/viaje-solo.jpg") no-repeat fixed bottom righ;
+}
+body {
+        background: url(../img/viaje-solo.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+}
+
+
+.main-wish {
+  margin-top: 30px;
+  padding: 0;
+}
+.head-wish {
+    background: #000;
+    height: 4em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+     opacity:0.79;
+   filter:alpha(opacity=60);
+
+  
+}
+#img-logo {
+  float: left;
+  height: 70px;
+  padding: 0;
+  position: relative;
+  width: 121px;
+}
+.icon-menu {
+  color: #afeeee;
+}
+.icon-swarm{
+  color: deepskyblue;
+  font-size: 2rem;
+  padding-right: 0.5em;
+}
+.icon-feather{
+  color: hotpink;
+  font-size: 2rem;
+  padding-right: 0.5em;
+}
+.icon-star{
+  color: #FFFF99;
+  font-size: 2rem;
+  padding-right: 0.5em;
+}
+.icon-dial-pad{
+  color: crimson;
+  font-size: 2rem;
+  padding-right: 0.5em;
+}
+.icon-user {
+  color: #afeeee;
+}
+.user {
+  float: right;
+  font-size: 1.6rem;
+  position: relative;
+  text-decoration: none;
+  top: 21px;
+}
+.nav-ul {
+  margin: 0;
+  overflow: hidden;
+  padding: 0 0 0 0px;
+  width: 100%;
+}
+.nav-ul li {
+  background-color: #2e3842;
+ 
+  margin-top: 0rem;
+  text-align: center;
+  width: 100%;
+}
+.nav-ul li a {
+  color: #fff;
+  display: block;
+  font-family: OpenSans-Bold;
+  font-size: 16px;
+  padding: 1rem 0;
+  text-decoration: none;
+  width: 100%;
+}
+.nav-ul li a:hover {
+  color: #21b2a6;
+  -webkit-transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+  -ms-transition: all 0.9s ease;
+  transition: all 0.9s ease;
+  background-color: #151a1e;
+}
+#check-nav {
+  display: none;
+}
+#check-nav:checked ~.navbar {
+    height: 260px;
+}
+.menu {
+  color: #000;
+  float: right;
+  font-size: 2.7rem;
+  padding: 0.2rem;
+  position: relative;
+  top: 11px;
+}
+.navbar {
+  height: 0;
+  margin-top: 0px;
+  overflow: hidden;
+   position: relative;
+  text-align: center;
+  top: -0.4em;
+  -webkit-transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+  -ms-transition: all 0.9s ease;
+  transition: all 0.9s ease;
+  width: 100%;
+  
+}
+
+.mision-vision {
+  
+  overflow: hidden;
+
+
+}
+.mision-vision h4 {
+  font-family: Roboto-Black;
+  font-size: 2rem;
+  text-align: center;
+  color: #a52a2a;
+}
+.mision {
+  margin: 15px;
+  text-align: justify;
+}
+.vision {
+  margin: 15px;
+  text-align: justify;
+}
+.info-wish {
+  background-image: url("../img/tips-viajar-pareja.jpg");
+  background-repeat: no-repeat;
+  overflow: hidden;
+  opacity:0.9;
+   filter:alpha(opacity=60);
+}
+.info {
+  margin: 15px;
+  text-align: center;
+}
+.info h4 {
+  font-family: Roboto-Black;
+  font-size: 2rem;
+  text-align: center;
+  color: #2f4f4f;
+}
+.Categorias-wish {
+   background-color: #21b2a6;
+  overflow: hidden;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: 1%;
+}
+.foot-wish {
+  background-color: #000;
+   overflow: hidden;
+   position: relative;
+   opacity:0.8;
+   filter:alpha(opacity=60);
+}
+.title-foo {
+  overflow: hidden;
+}
+.title-foo h4 {
+  color: #fff;
+  font-family: Roboto-Black;
+  font-size: 22px;
+  text-align: center;
+
+}
+.sociales {
+  text-align: center;
+  padding: 2px;
+}
+.sociales a {
+  text-decoration: none;
+}
+.icon {
+  font-size: 50px;
+  margin: 5px;
+}
+.icon-facebook-with-circle {
+  color: #01579b;
+}
+.icon-twitter-with-circle {
+  color: #4fc3f7;
+}
+.icon-instagram-with-circle {
+  color: #e91e63;
+}
+.icon:hover {
+  opacity: 0.6;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+  transition: all 0.9s ease;
+}
+.copy {
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+.copy p {
+  font-family: OpenSans-Bold;
+}
+
+.frases-content{
+  background-color: #fff;
+  overflow: hidden;
+  opacity:0.6;
+  filter:alpha(opacity=60);
+}
+
+.post{
+  margin:10px;
+}

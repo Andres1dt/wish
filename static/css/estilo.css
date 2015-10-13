@@ -1,0 +1,31 @@
+/***
+Bootstrap Line Tabs by @keenthemes
+A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+Licensed under MIT
+***/
+.seccionDatos, .seccionLogueo{
+    width: 80%;
+    margin: 10%;
+    overflow: hidden;
+    
+
+}
+/*
+input[type="text"],[type="password"],[type="email"] {
+	margin-bottom: 5%;
+}*/
+table {
+  border-collapse: separate;
+  border-spacing:  5px;
+}
+tr{
+	font-size: 18px;
+}
+.circulo {
+     width: 100px;
+     height: 100px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #5cb54c;
+}

@@ -1,0 +1,141 @@
+@import 'nib'
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+@font-face{
+	font-family: OpenSans-Bold;
+	src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+}
+
+@font-face{
+	font-family: OpenSans-Light;
+	src: url(../fonts/Open_Sans/OpenSans-Light.ttf);
+}
+
+@font-face{
+	font-family: Roboto-Black;
+	src: url(../fonts/Roboto/Roboto-Black.ttf);
+}
+
+.post
+	background-color: #E0F7FA
+	text-align: center
+	overflow: hidden
+	display: inline-block
+	max-width: 350px
+	max-height: 350px;
+	opacity: 1.0
+	filter: alpha (opacity=100)
+	
+    
+.post-image
+	float left
+	overflow hidden
+	position relative
+	text-aling center
+	cursor default
+	
+
+	
+.post-image img 
+		display block
+		position relative
+		
+.post-image .fig-cap
+		text-transform: uppercase;
+		color: #fff;
+		text-align: center;
+		position: relative;
+		font-size: 17px;
+		padding: 10px;
+		background: rgba(0, 0, 0, 0.9);
+		margin: 20px 0 0 0
+		top: -63px;
+		
+.ejemplo-1 img
+		transition: all 0.2s linear;
+		
+.ejemplo-1 .fig-cap
+		opacity: 0;
+		background-color: rgba(0, 0, 0, 0.7);
+		transition: all 0.5s ease-in-out;
+		font-family: OpenSans-Bold;
+.ejemplo-1 fig-cap
+		transform: translateX(-200px);/*Desplazamos a la izquierda*/
+		opacity: 0;
+		transition: all 0.7s ease-in-out;
+
+.ejemplo-1:hover img
+	transform: scale(1.1);/*Damos un ligero zoom a la imagen*/
+	
+.ejemplo-1:hover .fig-cap
+	opacity: 1;
+		
+.ejemplo-1:hover fig-cap
+	opacity: 1;
+	transform: translateX(0px);
+
+
+@media screen and (max-width: 500px)
+	body::after
+		content "500:1"
+		
+	.post
+		max-width: 250px;
+		max-height: 250px
+		width: 100%;
+		margin-bottom: 1rem;
+		
+	.post-image img
+		width: 100%;
+		
+	.art-expo-img fig
+		margin 80px 0 0 0
+		
+@media screen and (min-width: 992px)
+	body::after
+		content "992:2"
+	
+	
+		
+	.art-expo-img fig-cap
+		margin 6px 0 0 0
+	
+
+		
+@media screen and (min-width: 1200px)
+	body::after
+		content "pc"
+		
+	.art-expo-img fig-cap
+		text-transform: uppercase;
+		color: #fff;
+		text-align: center;
+		position: relative;
+		font-size: 17px;
+		padding: 10px;
+		background: rgba(0, 0, 0, 0.9);
+		margin: 20px 0 0 0
+		
+	.mision-vision
+		padding: 5%
+		height: 495px
+		
+	.mision-vision h4
+		text-align: left
+	
+	.info-wish
+		padding: 2%
+		height: 495px
+		
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+		

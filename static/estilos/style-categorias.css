@@ -1,0 +1,321 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url("../fonts/Open_Sans/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-family: OpenSans-Light;
+  src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+}
+@font-face {
+  font-family: Roboto-Black;
+  src: url("../fonts/Roboto/Roboto-Black.ttf");
+}
+
+.post {
+  background-color: #e0f7fa;
+  text-align: center;
+  overflow: hidden;
+  display: inline-block;
+  max-width: 350px;
+  max-height: 350px;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  filter: alpha 100;
+}
+.post-image {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-aling: center;
+  cursor: default;
+}
+.post-image img {
+  display: block;
+  position: relative;
+}
+.post-image .fig-cap, .fig-cap{
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0,0,0,0.9);
+  margin: 20px 0 0 0;
+  top: -63px;
+}
+
+.ejemplo-1 img {
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.ejemplo-1 .fig-cap {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  background-color: rgba(0,0,0,0.7);
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  font-family: OpenSans-Bold;
+}
+.ejemplo-1 fig-cap {
+  -webkit-transform: translateX(-200px);
+  -moz-transform: translateX(-200px);
+  -o-transform: translateX(-200px);
+  -ms-transform: translateX(-200px);
+  transform: translateX(-200px); /*Desplazamos a la izquierda*/
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+.ejemplo-1:hover img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1); /*Damos un ligero zoom a la imagen*/
+}
+.ejemplo-1:hover .fig-cap {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+.ejemplo-1:hover fig-cap {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -o-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
+}
+.img-re{
+    height: 195px;
+    padding: 1.4em 0.5em 0.5em;
+    width: 100%;
+  }
+@media screen and (min-width: 500px) {
+   .icon-hand,
+.icon-emoji-flirt, 
+.icon-heart,
+.icon-brush,
+.icon-globe,
+.icon-graduation-cap,
+.icon-aircraft-take-off,
+.icon-network{
+    font-size: 90px;
+}
+}
+@media screen and (max-width: 500px) {
+   .icon-hand,
+.icon-emoji-flirt, 
+.icon-heart,
+.icon-brush,
+.icon-globe,
+.icon-graduation-cap,
+.icon-aircraft-take-off,
+.icon-network{
+    font-size: 90px;
+}
+
+
+  body::after {
+    content: "500:1";
+  }
+  
+  .vista {
+    max-width: 250px;
+    max-height: 250px;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .vista .mascara, .vista .contenido {
+    max-width: 250px;
+    max-height: 250px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+  .post-image img {
+    width: 100%;
+  }
+  .art-expo-img fig {
+    margin: 80px 0 0 0;
+  }
+  
+.img-re{
+    height: 195px;
+    padding: 1.4em 0.5em 0.5em;
+    width: 100%;
+  }
+  
+}
+@media screen and (min-width: 600px) {
+ .icon-hand,
+.icon-emoji-flirt, 
+.icon-heart,
+.icon-brush,
+.icon-globe,
+.icon-graduation-cap,
+.icon-aircraft-take-off,
+.icon-network{
+    font-size: 180px;
+}
+
+  body::after {
+    content: "600";
+  }
+  .spotlight{
+  width: 100%;
+  height:13rem;
+}
+
+  
+  .img-re{
+    height: 201px;
+    padding: 1.5em 0.5em 0.5em;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body::after {
+    content: "992:2";
+  }
+  .art-expo-img fig-cap {
+    margin: 6px 0 0 0;
+  }
+
+  .img-re{
+    height: 201px;
+    padding: 1.8em 0.5em 0.5em;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body::after {
+    content: "pc";
+  }
+  .art-expo-img fig-cap {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0,0,0,0.9);
+    margin: 20px 0 0 0;
+  }
+  .mision-vision {
+        padding: 1%;
+    height: 579px;
+    margin-top: 4em;
+
+  }
+  .mision-vision h4 {
+    text-align: left;
+  }
+  .info-wish {
+    padding: 2%;
+    height: 495px;
+  }
+  .title-foo h4 {
+  color: #fff;
+  font-family: Roboto-Black;
+  font-size: 25px;
+  text-align: center;
+  
+ }
+ .mision-vision h4 {
+  font-family: Roboto-Black;
+  font-size: 2rem;
+  text-align: center;
+  color: #a52a2a;
+}
+.mision {
+  margin: 15px;
+  text-align: center;
+}
+.vision {
+  margin: 15px;
+  text-align: center;
+}
+.spotlight{
+  width: 100%;
+  height:14rem;
+}
+.mision-vision h4 {
+    color: #a52a2a;
+    font-family: Roboto-Black;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.mision-vision p {
+    color: black;
+    font-family: OpenSans-Light;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.img-re{
+    height: 201px;
+    margin-left: 9em;
+    margin-top: 1em;
+    padding: 1.5em 5em;
+    width: 80%;
+ }
+.nav-ul li {
+    background-color: #000006;
+    margin-top: 0rem;
+    text-align: left;
+    width: 100%;
+}
+.nav-ul li a {
+  padding-left: 3rem;
+
+}
+
+#check-nav:checked ~ .navbar {
+    background: black none repeat scroll 0 0;
+    height: 580px;
+    margin-top: 4.4em
+}
+.navbar {
+    height: 0;
+    margin-left: 65em;
+    margin-top: 4.3em;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    top: -0.4em;
+    transition: all 0.9s ease 0s;
+    width: 23%;
+}
+
+}
+
+

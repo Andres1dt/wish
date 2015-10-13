@@ -1,0 +1,104 @@
+.vista {
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    float: left;
+    border: 10px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+}
+.vista .mascara, .vista .contenido {
+     width: 350px;
+    height: 350px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.vista img {
+    display: block;
+    position: relative;
+}
+.vista h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: hsla(0,0%,0%,0.8);
+    margin: 20px 0 0 0;
+}
+.vista p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center;
+}
+
+
+.vista img {
+    transition: all 0.2s linear;
+}
+.vista .mascara {
+    opacity: 0;
+    background-color: hsla(34,43%,45%,0.4); /* Color naranja con 0.7 de opacidad */
+    transition: all 0.4s ease-in-out;
+}
+#a1{
+     background-color:hsla(0,40%,55%, 0.8);
+}
+#a2{
+     background-color:hsla(60,100%,25%, 0.8);
+}
+#a3{
+     background-color:hsla(0,100%,25%, 0.8);
+}
+#a4{
+     background-color:hsla(180,100%,25%, 0.8);
+}
+#a5{
+     background-color:hsla(120,100%,25%, 0.8);
+}
+#a6{
+     background-color:hsla(300,100%,25%, 0.8);
+}
+#a7{
+     background-color:hsla(60,20%,25%, 0.8);
+}
+#a8{
+     background-color:hsla(119,20%,55%, 0.85);
+}
+.vista h2 {
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: all 0.2s ease-in-out;
+}
+.vista p { 
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 0.2s linear;
+}
+
+.vista:hover img { 
+    transform: scale(1.1);
+} 
+.vista:hover .mascara { 
+    opacity: 1;
+}
+.vista:hover h2,
+.vista:hover p {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.vista:hover p {
+    transition-delay: 0.1s;
+    float: center;
+}
+
